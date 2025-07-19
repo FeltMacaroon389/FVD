@@ -39,7 +39,7 @@
     - `VGA_WIDTH`   (80)
     - `VGA_HEIGHT`  (25)
 
-- Additionally, the following constants are available to be manually manipulated:
+- These following variables are available to be manually manipulated:
     - `unsigned char* VGA_MEMORY`
         - Pointer to `VGA_ADDRESS`
 
