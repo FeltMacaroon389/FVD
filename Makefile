@@ -1,7 +1,7 @@
 CC = i386-elf-gcc
 OBJCOPY = i386-elf-objcopy
 
-CCFLAGS = -std=gnu99 -m32 -ffreestanding -nostdlib
+CCFLAGS = -std=gnu99 -m32 -ffreestanding
 OBJCOPYFLAGS = -O binary
 
 SRC_DIR = src
