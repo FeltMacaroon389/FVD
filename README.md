@@ -10,10 +10,10 @@
     - `void clear_screen(void)`
         - Clear the VGA screen and reset the cursor to the top left
 
-    - `void print_char(const char character, uint8_t color)`
+    - `void print_char(const char character, const uint8_t color)`
         - Print a single character to the VGA screen with a specified VGA color code
 
-    - `void print_string(const char* string, uint8_t color)`
+    - `void print_string(const char* string, const uint8_t color)`
         - Print a character array to the VGA screen with a specified VGA color code
 
 - You can utilize the following color definitions:
